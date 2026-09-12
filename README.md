@@ -35,6 +35,24 @@ The setup mainly follows the **Catppuccin Mocha** color palette.
 
 ---
 
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ohhraiyan/dots.git
+cd dots
+```
+
+Run the installer:
+
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+---
+
 ## 📁 Structure
 
 ```text
@@ -51,3 +69,4 @@ dots/
 ├── install.sh
 ├── screenshot.png
 └── README.md
+```
