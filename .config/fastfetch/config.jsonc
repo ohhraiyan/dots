@@ -1,0 +1,85 @@
+{
+  "display": {
+    "color": {
+      "keys": "#ffffff"
+    },
+    "key": {
+      "width": 14
+    },
+    "separator": "  "
+  },
+  "logo": {
+    "color": {
+      "1": "#ffffff"
+    },
+    "padding": {
+      "left": 1,
+      "top": 1,
+    },
+    "source": "/home/raiyan/.config/fastfetch/logo/cat.txt",
+    "type": "file"
+  },
+  "modules": [
+    {
+      "color": {
+        "at": "#666666",
+        "host": "#ff8a8a",
+        "user": "#ff8a8a"
+      },
+      "type": "title"
+    },
+    "break",
+    {
+      "format": "{pretty-name}",
+      "key": "  OS",
+      "keyColor": "#71b7ff",
+      "type": "os"
+    },
+    {
+      "key": " 󰌽 Kernel",
+      "keyColor": "#d2a8ff",
+      "type": "kernel"
+    },
+    {
+      "format": "{pretty-name}",
+      "key": "  WM",
+      "keyColor": "#ff8a8a",
+      "type": "wm"
+    },
+    {
+      "format": "{pretty-name}",
+      "key": "  Shell",
+      "keyColor": "#8ddb8c",
+      "type": "shell"
+    },
+    {
+      "key": " 󰔚 Uptime",
+      "keyColor": "#d2b45f",
+      "type": "uptime"
+    },
+    {
+      "key": " 󰏖 Packages",
+      "keyColor": "#f9e2af",
+      "type": "packages"
+    },
+    {
+      "format": "{used} / {total}",
+      "key": "  Ram",
+      "keyColor": "#71b7ff",
+      "type": "memory"
+    },
+    {
+      "key": " 󰋊 Disk",
+      "keyColor": "#94e2d5",
+      "type": "disk",
+      "folders": ["/"],
+      "format": "{1} / {2}"
+    },
+    {
+      "format": "{pretty-name}",
+      "key": " 󰸱 Color",
+      "symbol": "circle",
+      "type": "colors"
+    }
+  ]
+}
