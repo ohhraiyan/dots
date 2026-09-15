@@ -16,7 +16,7 @@
       "left": 1,
       "top": 1,
     },
-    "source": "/home/raiyan/.config/fastfetch/logo/cat.txt",
+    "source": "~/.config/fastfetch/logo/cat.txt",
     "type": "file"
   },
   "modules": [
